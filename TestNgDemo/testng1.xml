@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="yahoologintest">
+  <test thread-count="5" name="yahootest">
+  
+  <parameter name="url" value="https://login.yahoo.com/"/>
+  <parameter name="username" value="manishchintoo@yahoo.com"/>
+  
+    <classes>
+      <class name="com.parameter.ParameterTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
